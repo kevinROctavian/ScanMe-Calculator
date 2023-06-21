@@ -1,5 +1,6 @@
 package com.kevinroctavian.scanme.ui
 
+import android.util.Log
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -51,6 +52,7 @@ fun ScanMeApp(
             if (scanResultString != null) {
                 val gson = GsonBuilder().create()
                 val scanResult = gson.fromJson(scanResultString, ScanResult::class.java)
+                if (scanResult.operator.trim().isEmpty()) scanResult.operator = "+"
                 ScanResultDetailScreen(
                     scanResult = scanResult,
                     onBackPress = appState::navigateBack

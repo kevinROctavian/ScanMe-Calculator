@@ -10,7 +10,7 @@ data class ScanResult(
     @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "id") val id: Int = 0,
     @ColumnInfo(name = "operand1") val operand1: Int,
     @ColumnInfo(name = "operand2") val operand2: Int,
-    @ColumnInfo(name = "operator") val operator: String,
+    @ColumnInfo(name = "operator") var operator: String,
     @ColumnInfo(name = "result") val result: Int,
     @ColumnInfo(name = "image") val image: String
 )
