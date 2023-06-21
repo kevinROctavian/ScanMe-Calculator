@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ScanMe</string>
+
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+
+    <string name="add_input">Add Input</string>
+
+    <string name="input">Input: %d%s%d</string>
+    <string name="result">Result: %d</string>
+
+    <string name="use_file_storage">Use File Storage</string>
+    <string name="use_database_storage">Use Database Storage</string>
+
+    <string name="analyzing_image">Analyzing Image</string>
+    <string name="text_not_found">Text Not Found</string>
+    <string name="path">Path: %s</string>
+
+    <string name="scan_result_detail">Scan Result Detail</string>
+</resources>

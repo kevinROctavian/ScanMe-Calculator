@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ScanMe" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_700</item>
+    </style>
+    <style name="Theme.Red" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+    <style name="Theme.Green" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/green</item>
+    </style>
+</resources>
